@@ -1,0 +1,58 @@
+<html> 
+    <head>
+        <title>Explicando o HTML em prática</title>
+    </head>  
+    <body>
+        <h1> Explicação breve sobre html </h1>
+        <p>     Html se trata de uma linguagem de marcação ultilizada para construção de sites.
+         Ela é constituída de uma série de elementos chamados de 'Tags' que são responsáveis pela estruturação da página da forma que ela é vista para  o usuário externo.
+         Existem diversos tipos de Tags e marcadores, dentre os quais podemos citar:
+        </p>  
+
+        <ul> 
+           <li><a href="#Paragrafo">Paragrafo;</a></li>
+           <li><a href="#Input">Input;</a></li>
+           <li><a href="#Img">Img;</a></li> 
+           <li><a href="#H's">Tags H's</a></li>
+           <li><a href="#Links">Links</a></li>
+           <li>Dentre outras.</li>
+        </ul>    
+
+     <h4 id="Paragrafo"> Paragrafo:</h4>
+       <p> A Tag Parágrafo pode é responsável pela organização do texto em paragrafos para melhor entendimento e leitura na página . Essa tag é representada por um p entre dois colchetes angulares 
+     <h4 id="Input"> Input: </h4>
+       Tag de abertura que cria um campo de entrada de texto que pode possuir diversos propositos.
+     <h4 id="Img"> Img: </h4>
+       Tem o proposito de adicionar uma imagem à página em que está inserida.
+     <img scr="https://arquivo.devmedia.com.br/marketing/img/guia-html-38051.png" alt="Esse é um exemplo de uso da Tag img">
+     <h4 id="H's">Tags H's: </h4>
+       Proporcionam uma hierarquia aos títulos e cabeçalhos na página
+     <h4 id="Links">Links: </h4>
+       Conectam textos por meio de ancoragem e permite redirecionamento para outras partes do texto e outras páginas, arquivos, etc. A tag link possui dois conectores, que irão conectar o trecho escolhido ao que ele deverá ser conectado.
+     </p>
+     
+     <h2>Atributos de Tags:</h2>
+     
+     <p>
+        Além dos diversos tipos de Tags existentes destinadas à estruturação de página, eles ainda possuem os atributos, que são responsáveis por adicionar diversas caracteristicas nas Tags presentes na página. Alguns exemplos são:
+    
+        <ul> 
+       <li><a href="#Color">Color;</a></li>
+       <li><a href="#Text">Text:</a></li>
+       <li><a href="#Number">Number:</a></li> 
+    </ul>  
+ </p>
+
+    <h4 id="Color"> Color:</h4>
+    <p> Pode ser ultilizado para definir qual cor será o do texto ou um trecho dele.
+       <p style="color: rgb(0, 204, 255);">Este texto será azul.</p>
+
+    <h4 id="Text">Text:</h4>
+    <p> Define um campo de entrada para texto dentro da página.</p>
+    <input type="text" name="nome" placeholder="Digite seu nome">
+
+    <h4 id="Number">Number:</h4>
+    <p> É ultilizado para permitir a entrada de numero fornecido por um usuário. Pode oferecer um número minimo ou máximo caso seja necessário.</p>
+    <input type="number" name="quantidade" min="1" max="10">
+
+     </html>
